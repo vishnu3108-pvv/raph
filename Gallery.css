@@ -1,0 +1,96 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.galcontainer {
+    width: 1400px;
+    margin: 120px auto;
+    columns: 4;
+    column-gap: 40px;
+}
+.galcontainer .galbox{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.galcontainer .galbox img {
+    max-width: 100%;
+    border-radius: 15px;
+    
+}
+
+h22{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+    .container{
+        width: calc(100% - 40px);
+    }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.galcontainer {
+    width: 100%; /* Change to full width */
+    margin: 120px auto;
+    columns: 4;
+    column-gap: 40px;
+}
+
+.galcontainer .galbox {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.galcontainer .galbox img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+h22 {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .galcontainer {
+        columns: 3; /* Adjust the number of columns */
+    }
+}
+
+@media (max-width: 900px) {
+    .galcontainer {
+        columns: 2; /* Adjust the number of columns */
+    }
+}
+
+@media (max-width: 600px) {
+    .galcontainer {
+        columns: 1; /* Adjust the number of columns */
+        margin-left:0px;  
+        margin-right: 40px; 
+    }
+}
